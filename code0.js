@@ -63,7 +63,7 @@ gdjs.NewSceneCode.condition1IsTrue_0 = {val:false};
 gdjs.NewSceneCode.condition2IsTrue_0 = {val:false};
 
 
-gdjs.NewSceneCode.eventsList0x70d99c = function(runtimeScene) {
+gdjs.NewSceneCode.eventsList0x713e24 = function(runtimeScene) {
 
 {
 
@@ -135,7 +135,7 @@ if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
 }
 
 
-}; //End of gdjs.NewSceneCode.eventsList0x70d99c
+}; //End of gdjs.NewSceneCode.eventsList0x713e24
 gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDobstaclesObjects1Objects = Hashtable.newFrom({"obstacles": gdjs.NewSceneCode.GDobstaclesObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDobstaclesObjects1Objects = Hashtable.newFrom({"obstacles": gdjs.NewSceneCode.GDobstaclesObjects1});gdjs.NewSceneCode.eventsList0x5b6e18 = function(runtimeScene) {
 
 {
@@ -205,7 +205,7 @@ gdjs.NewSceneCode.GDobstaclesObjects1.createFrom(runtimeScene.getObjects("obstac
 }
 }
 { //Subevents
-gdjs.NewSceneCode.eventsList0x70d99c(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList0x713e24(runtimeScene);} //End of subevents
 }
 
 }
@@ -537,7 +537,7 @@ gdjs.NewSceneCode.GDFloorObjects1.length = k;}if (gdjs.NewSceneCode.condition0Is
 
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
-gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "F1");
+gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Num1");
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.NewSceneCode.GDFpsObjects1.createFrom(runtimeScene.getObjects("Fps"));
 gdjs.NewSceneCode.GDNoOfObstaclesObjects1.createFrom(runtimeScene.getObjects("NoOfObstacles"));
@@ -558,16 +558,20 @@ gdjs.NewSceneCode.GDNoOfObstaclesObjects1.createFrom(runtimeScene.getObjects("No
 
 gdjs.NewSceneCode.condition0IsTrue_0.val = false;
 {
-gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "F2");
+gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Num2");
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.NewSceneCode.GDFpsObjects1.createFrom(runtimeScene.getObjects("Fps"));
 gdjs.NewSceneCode.GDNoOfObstaclesObjects1.createFrom(runtimeScene.getObjects("NoOfObstacles"));
+gdjs.NewSceneCode.GDobstaclesObjects1.createFrom(runtimeScene.getObjects("obstacles"));
 {runtimeScene.getGame().getVariables().get("Debug").setNumber(0);
 }{for(var i = 0, len = gdjs.NewSceneCode.GDFpsObjects1.length ;i < len;++i) {
     gdjs.NewSceneCode.GDFpsObjects1[i].hide();
 }
 }{for(var i = 0, len = gdjs.NewSceneCode.GDNoOfObstaclesObjects1.length ;i < len;++i) {
     gdjs.NewSceneCode.GDNoOfObstaclesObjects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.NewSceneCode.GDobstaclesObjects1.length ;i < len;++i) {
+    gdjs.NewSceneCode.GDobstaclesObjects1[i].activateBehavior("Platform", true);
 }
 }}
 
