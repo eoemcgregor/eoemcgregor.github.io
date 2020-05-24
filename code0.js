@@ -69,7 +69,7 @@ gdjs.NewSceneCode.condition1IsTrue_0 = {val:false};
 gdjs.NewSceneCode.condition2IsTrue_0 = {val:false};
 
 
-gdjs.NewSceneCode.eventsList0x7571dc = function(runtimeScene) {
+gdjs.NewSceneCode.eventsList0x70516c = function(runtimeScene) {
 
 {
 
@@ -157,8 +157,8 @@ if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
 }
 
 
-}; //End of gdjs.NewSceneCode.eventsList0x7571dc
-gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDDuckObstacleObjects2Objects = Hashtable.newFrom({"DuckObstacle": gdjs.NewSceneCode.GDDuckObstacleObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDJumpObstacleObjects1Objects = Hashtable.newFrom({"JumpObstacle": gdjs.NewSceneCode.GDJumpObstacleObjects1});gdjs.NewSceneCode.eventsList0x7586ac = function(runtimeScene) {
+}; //End of gdjs.NewSceneCode.eventsList0x70516c
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDDuckObstacleObjects2Objects = Hashtable.newFrom({"DuckObstacle": gdjs.NewSceneCode.GDDuckObstacleObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDJumpObstacleObjects1Objects = Hashtable.newFrom({"JumpObstacle": gdjs.NewSceneCode.GDJumpObstacleObjects1});gdjs.NewSceneCode.eventsList0x7380ac = function(runtimeScene) {
 
 {
 
@@ -185,15 +185,15 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumbe
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.NewSceneCode.GDJumpObstacleObjects1.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDJumpObstacleObjects1Objects, 800, 450, "");
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDJumpObstacleObjects1Objects, 800, 440, "");
 }{runtimeScene.getVariables().get("Time").setNumber(0);
 }}
 
 }
 
 
-}; //End of gdjs.NewSceneCode.eventsList0x7586ac
-gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDDuckObstacleObjects2Objects = Hashtable.newFrom({"DuckObstacle": gdjs.NewSceneCode.GDDuckObstacleObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDJumpObstacleObjects1Objects = Hashtable.newFrom({"JumpObstacle": gdjs.NewSceneCode.GDJumpObstacleObjects1});gdjs.NewSceneCode.eventsList0x758e3c = function(runtimeScene) {
+}; //End of gdjs.NewSceneCode.eventsList0x7380ac
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDDuckObstacleObjects2Objects = Hashtable.newFrom({"DuckObstacle": gdjs.NewSceneCode.GDDuckObstacleObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDJumpObstacleObjects1Objects = Hashtable.newFrom({"JumpObstacle": gdjs.NewSceneCode.GDJumpObstacleObjects1});gdjs.NewSceneCode.eventsList0x6c19bc = function(runtimeScene) {
 
 {
 
@@ -220,15 +220,15 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumbe
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.NewSceneCode.GDJumpObstacleObjects1.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDJumpObstacleObjects1Objects, 800, 450, "");
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDJumpObstacleObjects1Objects, 800, 440, "");
 }{runtimeScene.getVariables().get("Time").setNumber(0);
 }}
 
 }
 
 
-}; //End of gdjs.NewSceneCode.eventsList0x758e3c
-gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDDuckObstacleObjects2Objects = Hashtable.newFrom({"DuckObstacle": gdjs.NewSceneCode.GDDuckObstacleObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDJumpObstacleObjects1Objects = Hashtable.newFrom({"JumpObstacle": gdjs.NewSceneCode.GDJumpObstacleObjects1});gdjs.NewSceneCode.eventsList0x7595e4 = function(runtimeScene) {
+}; //End of gdjs.NewSceneCode.eventsList0x6c19bc
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDDuckObstacleObjects2Objects = Hashtable.newFrom({"DuckObstacle": gdjs.NewSceneCode.GDDuckObstacleObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDJumpObstacleObjects1Objects = Hashtable.newFrom({"JumpObstacle": gdjs.NewSceneCode.GDJumpObstacleObjects1});gdjs.NewSceneCode.eventsList0x6c58cc = function(runtimeScene) {
 
 {
 
@@ -255,15 +255,15 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumbe
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.NewSceneCode.GDJumpObstacleObjects1.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDJumpObstacleObjects1Objects, 800, 450, "");
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDJumpObstacleObjects1Objects, 800, 440, "");
 }{runtimeScene.getVariables().get("Time").setNumber(0);
 }}
 
 }
 
 
-}; //End of gdjs.NewSceneCode.eventsList0x7595e4
-gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDDuckObstacleObjects2Objects = Hashtable.newFrom({"DuckObstacle": gdjs.NewSceneCode.GDDuckObstacleObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDJumpObstacleObjects1Objects = Hashtable.newFrom({"JumpObstacle": gdjs.NewSceneCode.GDJumpObstacleObjects1});gdjs.NewSceneCode.eventsList0x759dec = function(runtimeScene) {
+}; //End of gdjs.NewSceneCode.eventsList0x6c58cc
+gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDDuckObstacleObjects2Objects = Hashtable.newFrom({"DuckObstacle": gdjs.NewSceneCode.GDDuckObstacleObjects2});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDJumpObstacleObjects1Objects = Hashtable.newFrom({"JumpObstacle": gdjs.NewSceneCode.GDJumpObstacleObjects1});gdjs.NewSceneCode.eventsList0x6d1a3c = function(runtimeScene) {
 
 {
 
@@ -290,14 +290,14 @@ gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumbe
 }if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
 gdjs.NewSceneCode.GDJumpObstacleObjects1.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDJumpObstacleObjects1Objects, 800, 450, "");
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDJumpObstacleObjects1Objects, 800, 440, "");
 }{runtimeScene.getVariables().get("Time").setNumber(0);
 }}
 
 }
 
 
-}; //End of gdjs.NewSceneCode.eventsList0x759dec
+}; //End of gdjs.NewSceneCode.eventsList0x6d1a3c
 gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDDuckObstacleObjects1Objects = Hashtable.newFrom({"DuckObstacle": gdjs.NewSceneCode.GDDuckObstacleObjects1});gdjs.NewSceneCode.mapOfGDgdjs_46NewSceneCode_46GDJumpObstacleObjects1Objects = Hashtable.newFrom({"JumpObstacle": gdjs.NewSceneCode.GDJumpObstacleObjects1});gdjs.NewSceneCode.eventsList0x5b6e18 = function(runtimeScene) {
 
 {
@@ -375,7 +375,7 @@ gdjs.NewSceneCode.GDbackground6Objects1.createFrom(runtimeScene.getObjects("back
 }
 }
 { //Subevents
-gdjs.NewSceneCode.eventsList0x7571dc(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList0x70516c(runtimeScene);} //End of subevents
 }
 
 }
@@ -396,7 +396,7 @@ if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
 {runtimeScene.getVariables().get("ObjectSpawn").setNumber(gdjs.random(2));
 }
 { //Subevents
-gdjs.NewSceneCode.eventsList0x7586ac(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList0x7380ac(runtimeScene);} //End of subevents
 }
 
 }
@@ -417,7 +417,28 @@ if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
 {runtimeScene.getVariables().get("ObjectSpawn").setNumber(gdjs.random(2));
 }
 { //Subevents
-gdjs.NewSceneCode.eventsList0x758e3c(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList0x6c19bc(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+gdjs.NewSceneCode.condition0IsTrue_0.val = false;
+gdjs.NewSceneCode.condition1IsTrue_0.val = false;
+{
+gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Speed")) == 350;
+}if ( gdjs.NewSceneCode.condition0IsTrue_0.val ) {
+{
+gdjs.NewSceneCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Time")) > 0.4;
+}}
+if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
+{runtimeScene.getVariables().get("ObjectSpawn").setNumber(gdjs.random(2));
+}
+{ //Subevents
+gdjs.NewSceneCode.eventsList0x6c58cc(runtimeScene);} //End of subevents
 }
 
 }
@@ -432,34 +453,13 @@ gdjs.NewSceneCode.condition1IsTrue_0.val = false;
 gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Speed")) == 400;
 }if ( gdjs.NewSceneCode.condition0IsTrue_0.val ) {
 {
-gdjs.NewSceneCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Time")) > 0.4;
-}}
-if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
-{runtimeScene.getVariables().get("ObjectSpawn").setNumber(gdjs.random(2));
-}
-{ //Subevents
-gdjs.NewSceneCode.eventsList0x7595e4(runtimeScene);} //End of subevents
-}
-
-}
-
-
-{
-
-
-gdjs.NewSceneCode.condition0IsTrue_0.val = false;
-gdjs.NewSceneCode.condition1IsTrue_0.val = false;
-{
-gdjs.NewSceneCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Speed")) == 500;
-}if ( gdjs.NewSceneCode.condition0IsTrue_0.val ) {
-{
 gdjs.NewSceneCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("Time")) > 0.3;
 }}
 if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
 {runtimeScene.getVariables().get("ObjectSpawn").setNumber(gdjs.random(2));
 }
 { //Subevents
-gdjs.NewSceneCode.eventsList0x759dec(runtimeScene);} //End of subevents
+gdjs.NewSceneCode.eventsList0x6d1a3c(runtimeScene);} //End of subevents
 }
 
 }
@@ -917,7 +917,7 @@ for(var i = 0, k = 0, l = gdjs.NewSceneCode.GDShowScoreObjects1.length;i<l;++i) 
 }
 gdjs.NewSceneCode.GDShowScoreObjects1.length = k;}}
 if (gdjs.NewSceneCode.condition1IsTrue_0.val) {
-{runtimeScene.getVariables().get("Speed").setNumber(400);
+{runtimeScene.getVariables().get("Speed").setNumber(350);
 }}
 
 }
@@ -937,7 +937,7 @@ for(var i = 0, k = 0, l = gdjs.NewSceneCode.GDShowScoreObjects1.length;i<l;++i) 
     }
 }
 gdjs.NewSceneCode.GDShowScoreObjects1.length = k;}if (gdjs.NewSceneCode.condition0IsTrue_0.val) {
-{runtimeScene.getVariables().get("Speed").setNumber(500);
+{runtimeScene.getVariables().get("Speed").setNumber(400);
 }}
 
 }
